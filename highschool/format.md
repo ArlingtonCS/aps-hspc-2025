@@ -4,7 +4,7 @@ Problem description (paragraphs).
 
 ## Input
 
-Input description
+The first line in the test data file contains the number of test cases.
 
 ## Output
 
