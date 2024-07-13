@@ -1,0 +1,8 @@
+1
+6
+Phantom,5
+Shadow,10
+Goof,3
+Shadow,12
+Phantom,15
+Goof,2
