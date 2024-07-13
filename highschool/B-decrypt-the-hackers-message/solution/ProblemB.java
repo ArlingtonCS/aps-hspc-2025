@@ -1,17 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int testcases = scanner.nextInt();
-        scanner.nextLine(); // consume newline character
-
-        for (int i = 0; i < testcases; i++) {
-            String line = scanner.nextLine();
-            System.out.println(decrypt(line));
-        }
-    }
-
+public class ProblemB {
     public static String decrypt(String message) {
         StringBuilder result = new StringBuilder();
 
@@ -40,5 +29,18 @@ public class Solution {
 
     private static char rotate(char ch) {
         return (char) ((ch - 'A' + 13) % 26 + 'A');
+    }
+
+    // parsing code, DO NOT MODIFY
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            int testCases = scanner.nextInt();
+            scanner.nextLine(); // consume newline character
+
+            for (int i = 0; i < testCases; i++) {
+                String line = scanner.nextLine();
+                System.out.println(decrypt(line));
+            }
+        }
     }
 }
