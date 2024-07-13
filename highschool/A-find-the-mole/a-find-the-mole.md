@@ -6,11 +6,11 @@ You are tasked with writing a program that will determine the name of the agent 
 
 ## Input
 
-The first line in the test data file contains the number of test cases. Each test case starts with a line denoting the number of data points $n$ $(1 \leq n \leq 1000)$. The following $n$ lines consist of an agent's codename, followed by a comma, followed by the number of missions completed on a certain day. The codename will be a string of length $l$ $(1 \leq l \leq 100)$, consisting of characters A-Z and numbers 0-9. The number of missions completed will be an integer $m$ $(1 \leq m \leq 1000)$. **No spaces or whitespace will be present anywhere in the input.**
+The first line in the test data file contains the number of test cases. Each test case starts with a line denoting the number of data points $n$ $(1 \leq n \leq 1000)$. The following $n$ lines consist of an agent's codename, followed by a comma, followed by the number of missions completed on a day. The codename will be a string of length $l$ $(1 \leq l \leq 100)$, consisting of alphanumeric characters (a-z, A-Z, and 0-9). The number of missions completed will be an integer $m$ $(1 \leq m \leq 1000)$. **No spaces or whitespace will be present anywhere in the input.**
 
 ## Output
 
-Output the name of the agent who, on average, completes less than 4 missions per day. It is guaranteed that only one agent will complete less than 4 missions per day.
+For each test case, output the name of the agent who, on average, completed less than 4 missions per day on a separate line. It is guaranteed that only one agent will complete less than 4 missions per day.
 
 ## Sample Input
 
