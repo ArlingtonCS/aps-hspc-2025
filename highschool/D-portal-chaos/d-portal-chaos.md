@@ -2,11 +2,11 @@
 
 While on a top secret mission, one of our junior operatives, Johnny, tripped
 and dropped our portal generator. When the generator hit the floor, it started
-generating extra portals, and our operative was forced to return. As our top
-operative at Hyper-Space Portal Corporation (HSPC), your mission, if you chose
+generating extra portals, and our operative was forced to return. Luckily, 
+the generator broadcasted the details of all the portals it generated. As our top
+operative at Hyper-Space Portal Corporation (HSPC), your mission, should you chose
 to accept it, is to navigate the maze of portals and safely retreieve our
-portal generator. Luckily, the generator broadcasted the details of all the
-portals it generated. Each of the portals connects 2 rooms. You will start in
+portal generator. Each of the portals connects 2 rooms. You will always start in
 room #1, and the portal will be in room #100. 
 
 ## Input
@@ -23,7 +23,7 @@ the generator.
 ## Sample Input
 
 ```
-5
+4
 1,2
 2,3
 2,4
