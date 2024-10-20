@@ -1,0 +1,6 @@
+Dockerfile
+format.md
+.dockerignore
+run.sh
+password.txt
+compose.yaml

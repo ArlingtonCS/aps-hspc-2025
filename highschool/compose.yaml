@@ -1,0 +1,16 @@
+services:
+  code-server:
+    build: .
+    ports:
+      - "5000:5000"
+    secrets:
+      - password
+    volumes:
+      - project:/root/hspc
+
+secrets:
+  password:
+    file: ./password.txt
+
+volumes:
+  project:
