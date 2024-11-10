@@ -15,7 +15,7 @@ def traverse(seen_rooms, current_room, portals):
             traverse(seen_rooms, first_room, portals)
 
 def generate():
-    num_rooms = random.randint(60, 100)
+    num_rooms = random.randint(250, 500)
     portals = []
 
     for room in range(0, num_rooms):
@@ -29,10 +29,12 @@ def generate():
     seen_rooms = [0]
     traverse(seen_rooms, 0, portals)
 
-    portals.append((max(seen_rooms), 100))
+    portals.append((max(seen_rooms), 1000))
+    
+    random.shuffle(portals)
 
     print(len(portals))
-    for connection in portals:
-        print(f"{connection[0]},{connection[1]}")
+    for portal in portals:
+        print(f"{portal[0]},{portal[1]}")
 
 generate()

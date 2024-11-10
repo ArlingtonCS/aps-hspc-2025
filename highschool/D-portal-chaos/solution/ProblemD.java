@@ -9,7 +9,7 @@ public class ProblemD {
 
             if (first_room != current_room && second_room != current_room) {
                 continue;
-            } else if ((first_room == current_room && second_room == 100) || (second_room == current_room && first_room == 100)) {
+            } else if ((first_room == current_room && second_room == 1000) || (second_room == current_room && first_room == 1000)) {
                 return 1;
             } else if (first_room == current_room && !seen_rooms.contains(second_room)) {
                 seen_rooms.add(second_room);
