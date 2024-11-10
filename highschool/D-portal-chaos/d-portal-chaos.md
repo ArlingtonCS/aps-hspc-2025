@@ -6,8 +6,9 @@ generating extra portals, and our operative was forced to return. As our top
 operative at Hyper-Space Portal Corporation (HSPC), your mission, if you chose
 to accept it, is to navigate the maze of portals and safely retreieve our
 portal generator. Luckily, the generator broadcasted the details of all the
-portals it generated. Each of the portals connects 2 rooms. You will start in
-room #1, and the portal will be in room #100. 
+portals it generated. Each of the portals connects 2 rooms and can be used in
+each direction. You will start in room #0, and the portal generator will be in
+room #100. 
 
 ## Input
 
@@ -24,6 +25,7 @@ the generator.
 
 ```
 5
+0,1
 1,2
 2,3
 2,4
@@ -33,5 +35,5 @@ the generator.
 ## Sample Output
 
 ```
-3
+4
 ```
