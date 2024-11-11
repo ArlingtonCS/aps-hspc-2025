@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
 public class ProblemB {
+    // Returns the decrypted message
     public static String decrypt(String message) {
         // ### WRITE YOUR CODE HERE ###
-
-        return message;
     }
 
     // parsing code, DO NOT MODIFY
