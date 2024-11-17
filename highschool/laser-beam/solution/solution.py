@@ -5,9 +5,6 @@ def does_intersect(first_x, first_y, second_x, second_y, angle):
     mirror_slope = (first_y - second_y) / (first_x - second_x)
     laser_slope = math.tan(math.radians(angle))
 
-    if mirror_slope == laser_slope:
-        return mirror_slope * first_x == first_y
-
     intersection_x = (mirror_slope * first_x - first_y) / (mirror_slope - laser_slope)
 
     laser_is_valid = ((angle > 270 or angle < 90) and intersection_x >= 0) or intersection_x <= 0

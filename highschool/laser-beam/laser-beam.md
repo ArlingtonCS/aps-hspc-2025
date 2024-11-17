@@ -33,10 +33,13 @@ mirror or "false" if it does not on a new line.
 ## Sample Input
 
 ```
-3
-1 0 0 1 45
-1 0 0 1 225
-1 1 1 2 60
+6
+2 17 -10 -7 323
+17 14 9 19 333
+-1 -15 -12 -19 242
+-18 7 -20 -13 186
+7 10 13 17 276
+19 -8 -1 -12 95
 ```
 
 ## Sample Output
@@ -45,4 +48,7 @@ mirror or "false" if it does not on a new line.
 true
 false
 true
+true
+false
+false
 ```
