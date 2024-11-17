@@ -6,13 +6,13 @@ Your task is to decode the message by following a series of commands issued by H
 
 ## Input
 
-The input begins with an integer ```T```, the number of test cases.
+The first line contains an integer $T$, the number of test cases.
 
 For each test case:
 
-The first line contains an integer ```N```, the number of commands.
+The first line contains an integer $N$, the number of commands.
 The second line contains the original encoded message, a string of lowercase letters.
-Each of the next ```N``` lines contains one command in one of three possible formats:
+Each of the next $N$ lines contains one command in one of three possible formats:
 
  - replace ```old_char``` with ```new_char``` - replaces each occurrence of ```old_char``` in the message with ```new_char```.
  - delete ```char``` - removes each occurrence of ```char``` from the message.
