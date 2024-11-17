@@ -1,4 +1,5 @@
 # returns the path to secrets.txt
+# lines is a list of strings containing each line of the input
 def find_secrets_txt(lines):
     #### WRITE CODE HERE ####
     pass

@@ -1,6 +1,6 @@
 # C: Find Secrets.txt
 
-Your organization, the Hacker Service Protection Coalition (HSPC), has recently hacked into a server from a rival foreign intelligence agency. You know that the server contains a critical file named `secrets.txt` with info on the agency's next big operation. Given a listing of all of the files on the enemy server, your task is to write a program that will find the path to the file `secrets.txt`.
+Your organization, the Hacker Service Protection Coalition (HSPC), has recently hacked into a server from a rival foreign intelligence agency. You know that the server contains a critical file named `secrets.txt` with info on the agency's next big operation. Given a directory tree of all of the files on the enemy server, your task is to write a program that will find the path to the file `secrets.txt`.
 
 ## Input
 
