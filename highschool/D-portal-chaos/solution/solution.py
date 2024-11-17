@@ -1,4 +1,6 @@
 # returns the number of portals taken
+# `portals` is a list of tuples with two elements, the two integer room numbers
+# the portal connects
 def navigate(portals, seen_rooms = [0], current_room = 0):
     for (first_room, second_room) in portals:
         if (first_room != current_room and second_room != current_room):
