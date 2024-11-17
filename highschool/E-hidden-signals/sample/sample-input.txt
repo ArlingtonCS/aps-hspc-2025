@@ -1,0 +1,11 @@
+1
+8
+mqzsrwek
+replace q with o
+insert p before 3
+delete z
+replace m with t
+insert e before 5
+replace k with t
+insert c before 6
+delete w

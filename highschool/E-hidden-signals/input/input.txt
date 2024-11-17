@@ -1,0 +1,491 @@
+30
+3
+fuvoblhrskatr
+delete h
+delete f
+insert f before 8
+16
+rheowtytf
+replace t with c
+replace c with s
+replace h with g
+delete y
+insert z before 8
+delete s
+delete g
+replace o with z
+replace z with c
+replace w with f
+replace f with n
+delete n
+replace c with w
+replace r with j
+replace e with f
+replace w with e
+18
+pwjqtexfmdnd
+insert d before 1
+replace d with b
+replace b with m
+insert u before 11
+delete m
+replace f with s
+insert m before 6
+replace j with l
+delete w
+delete l
+replace t with f
+delete q
+delete n
+insert n before 14
+insert s before 10
+insert o before 6
+replace m with c
+insert f before 5
+2
+omsebuxgdcdn
+insert q before 7
+delete n
+16
+ihkhuag
+insert q before 2
+delete g
+delete q
+insert p before 5
+delete k
+replace i with k
+insert j before 3
+replace k with t
+replace a with v
+replace h with x
+insert v before 5
+insert f before 10
+insert m before 4
+delete v
+insert c before 12
+replace t with a
+12
+mimlnxrmrh
+replace m with x
+delete x
+replace r with o
+insert r before 2
+replace l with f
+insert o before 8
+replace o with d
+delete f
+delete d
+replace i with t
+replace h with m
+delete n
+4
+jurzzo
+replace r with k
+insert s before 3
+insert d before 2
+replace j with k
+26
+txtvohm
+delete v
+insert m before 1
+delete t
+replace o with e
+delete m
+replace x with u
+insert d before 5
+delete h
+delete d
+replace u with b
+insert j before 7
+delete b
+replace j with k
+delete k
+replace e with i
+replace i with x
+insert z before 7
+replace x with z
+insert j before 8
+replace j with n
+delete z
+replace n with d
+insert f before 12
+replace f with k
+delete k
+delete d
+3
+tnsnefgyjkr
+replace n with f
+delete f
+replace e with a
+18
+ffadtqlufwlsda
+replace d with t
+delete a
+insert o before 4
+delete o
+delete s
+delete f
+delete l
+delete q
+replace w with p
+replace p with n
+replace t with v
+delete v
+replace u with z
+replace z with e
+insert u before 3
+replace e with x
+delete u
+delete x
+1
+aaahfilfyeeupfq
+delete f
+5
+kegts
+insert v before 4
+replace e with u
+insert d before 6
+insert d before 2
+insert h before 4
+24
+yavgbctffuz
+delete y
+insert e before 10
+insert g before 3
+replace g with k
+replace u with g
+delete b
+replace v with b
+delete z
+delete b
+delete a
+replace e with k
+insert k before 10
+insert c before 5
+delete f
+insert a before 15
+delete c
+insert c before 9
+delete g
+delete a
+insert c before 12
+insert i before 2
+insert x before 16
+delete c
+replace k with v
+11
+squuwnrpqotxud
+insert b before 13
+replace u with x
+replace o with a
+insert k before 11
+delete x
+insert t before 5
+replace n with l
+replace a with w
+delete d
+insert j before 17
+delete j
+28
+jigguamsjnkcz
+insert b before 13
+replace m with g
+insert b before 4
+delete u
+insert t before 4
+insert k before 9
+replace g with a
+replace i with y
+insert o before 11
+delete j
+insert o before 4
+insert m before 13
+delete a
+replace t with q
+delete k
+replace q with m
+replace z with n
+replace s with o
+replace m with w
+delete w
+delete n
+delete y
+insert g before 4
+replace b with e
+insert f before 7
+delete f
+insert w before 13
+delete o
+20
+sefsyky
+replace f with p
+delete e
+delete k
+delete y
+replace s with e
+insert t before 4
+replace t with g
+insert y before 6
+replace y with u
+replace e with l
+insert s before 7
+replace l with i
+insert w before 8
+insert q before 8
+delete q
+replace p with g
+delete g
+insert t before 5
+insert b before 1
+delete u
+22
+omycrzmzo
+delete r
+insert l before 2
+replace z with x
+delete o
+insert z before 8
+delete c
+delete z
+delete l
+insert m before 2
+delete x
+delete y
+replace m with d
+replace d with b
+replace b with q
+delete q
+insert h before 9
+replace h with c
+insert o before 2
+insert b before 7
+replace c with x
+delete x
+delete o
+25
+wivnmcnr
+replace c with s
+delete v
+replace m with c
+replace i with e
+replace s with g
+delete n
+replace r with z
+replace g with n
+insert u before 1
+replace u with q
+delete n
+insert p before 7
+replace p with d
+replace c with y
+insert e before 3
+delete y
+insert k before 9
+delete e
+insert k before 11
+insert h before 7
+delete d
+delete w
+replace q with p
+delete k
+delete h
+13
+ktbjxmqly
+delete j
+replace x with f
+insert c before 4
+delete l
+delete c
+insert y before 5
+insert n before 8
+delete n
+replace f with u
+delete k
+insert d before 10
+delete y
+delete m
+1
+hkdqgbsqfpiepu
+insert u before 7
+4
+lggyxuegtedivqi
+delete d
+replace v with t
+delete g
+replace q with m
+4
+yyqzpbcgxkjkq
+replace y with l
+delete j
+replace q with g
+replace g with f
+23
+umieys
+replace u with v
+insert z before 2
+delete e
+delete m
+insert g before 4
+delete i
+insert p before 7
+replace y with r
+insert d before 7
+replace g with q
+replace s with r
+insert m before 7
+delete p
+insert n before 8
+delete q
+replace m with c
+insert c before 1
+insert h before 2
+replace n with t
+insert z before 13
+insert j before 7
+delete h
+delete r
+29
+vndhvafagpuorr
+replace f with m
+replace p with h
+replace g with k
+insert y before 10
+replace o with v
+delete r
+delete u
+delete h
+replace v with y
+insert s before 5
+replace k with u
+insert k before 4
+delete a
+insert i before 5
+replace y with b
+insert j before 12
+delete b
+delete u
+replace n with r
+replace r with g
+delete m
+insert a before 9
+delete d
+insert w before 15
+insert d before 11
+delete j
+replace w with f
+insert v before 19
+delete g
+23
+vbxjgv
+delete j
+delete b
+insert j before 1
+replace j with a
+insert c before 6
+insert c before 3
+replace c with r
+delete r
+delete a
+delete v
+delete g
+insert w before 6
+insert y before 4
+insert f before 6
+insert g before 2
+delete y
+delete f
+replace g with n
+replace x with j
+insert r before 12
+insert v before 14
+delete r
+replace w with b
+17
+hbvpqonazbxprhf
+insert a before 6
+delete a
+replace b with y
+insert e before 10
+replace v with h
+replace h with d
+replace y with b
+replace d with g
+delete g
+insert a before 9
+replace f with l
+replace l with s
+insert f before 3
+insert o before 2
+replace b with q
+delete o
+insert c before 6
+21
+qhhkxqnur
+delete k
+replace h with t
+replace t with i
+replace u with t
+delete t
+insert u before 2
+replace i with z
+insert s before 9
+replace x with l
+delete s
+delete q
+delete z
+insert t before 7
+delete t
+insert c before 6
+replace n with g
+replace l with p
+insert h before 2
+replace p with f
+delete h
+insert d before 10
+14
+ovfefbsd
+insert z before 7
+insert a before 8
+insert s before 3
+insert g before 6
+replace f with y
+insert h before 11
+replace z with c
+insert i before 1
+insert b before 6
+replace e with f
+delete d
+delete v
+delete o
+delete f
+24
+fcszkpoute
+replace s with u
+insert e before 10
+delete e
+delete p
+insert j before 8
+replace z with n
+insert s before 8
+replace f with h
+delete k
+insert j before 1
+replace j with e
+insert p before 10
+delete e
+insert o before 10
+delete p
+delete n
+insert f before 15
+insert r before 4
+replace f with h
+replace r with y
+replace u with k
+delete o
+replace h with c
+replace t with w
+3
+hizuzosvkedci
+insert c before 7
+insert d before 9
+delete k
