@@ -1,4 +1,6 @@
 # returns the number of portals taken
+# `portals` is a list of tuples with two elements, the two integer room numbers
+# the portal connects
 def navigate(portals):
     #### WRITE CODE HERE ####
     pass
