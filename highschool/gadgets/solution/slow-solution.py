@@ -1,11 +1,6 @@
 # returns the number of combinations
 # `sizes` is a list of gadget sized
 def num_gadget_combos(pocket_size, sizes):
-    sizes = sorted(sizes, reverse=True)
-
-    return num_gadget_combos_already_sorted(pocket_size, sizes)
-
-def num_gadget_combos_already_sorted(pocket_size, sizes):
     if pocket_size == 0:
         return 1
     elif len(sizes) == 0:
@@ -13,7 +8,7 @@ def num_gadget_combos_already_sorted(pocket_size, sizes):
 
     sum = 0
     for size_used in range(0, pocket_size+1, sizes[0]):
-        sum += num_gadget_combos_already_sorted(pocket_size - size_used, sizes[1:])
+        sum += num_gadget_combos(pocket_size - size_used, sizes[1:])
 
     return sum
     

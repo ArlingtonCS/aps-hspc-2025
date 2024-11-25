@@ -1,8 +1,6 @@
 # returns the number of combinations
 # `sizes` is a list of gadget sized
 def num_gadget_combos(pocket_size, sizes):
-    sizes = sorted(sizes, reverse=True)
-
     counts = [0 for _ in range(pocket_size + 1)] 
     counts[0] = 1
     for size in sizes:

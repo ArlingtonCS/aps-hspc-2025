@@ -1,10 +1,7 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 class Solution {
     public static int num_gadget_combos(int pocket_size, int sizes[]) {
-        Arrays.sort(sizes);
-
         int counts[] = new int[pocket_size + 1];
         counts[0] = 1;
 
