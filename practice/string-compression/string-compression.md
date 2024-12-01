@@ -9,7 +9,7 @@ compressed.
 ## Input
 
 The first line of the input is the number of string to compress, $n$. The next
-$n$ lines consist of one string to compress. The string onlys contain lowercase
+$n$ lines consist of one string to compress. The strings only contain lowercase
 letters, with no punctuation or special characters.
 
 ## Output
