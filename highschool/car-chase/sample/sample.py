@@ -1,6 +1,4 @@
-def car_chase(test_case):
-    x_agent, y_agent = test_case["agent"]
-    x_you, y_you = test_case["you"]
+def car_chase(x_agent, y_agent, x_you, y_you):
     
     # WRITE CODE HERE
     
@@ -22,22 +20,14 @@ def car_chase(test_case):
 
 
 # DO NOT MODIFY BELOW HERE
+# Input reading
 T = int(input())
-test_cases = []
+results = []
 
 for _ in range(T):
     x_agent, y_agent = map(int, input().strip().split(","))
     x_you, y_you = map(int, input().strip().split(","))
-    test_cases.append({
-        "agent": (x_agent, y_agent),
-        "you": (x_you, y_you)
-    })
-    
-results = []
-
-for test_case in test_cases:
-    # Process the test cases
-    results.append(car_chase(test_case))
+    results.append(car_chase(x_agent, y_agent, x_you, y_you))
 
 # Output results
 for result in results:

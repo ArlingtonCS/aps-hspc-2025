@@ -6,7 +6,7 @@ The city is represented as a 2D grid. The rogue agent starts at a specific coord
 
 ## Movement Rules:
  - **Spy’s Movement:** The spy moves 1 block per minute, either horizontally or vertically.
- - **Your Movement:** You can move up to 2 blocks in each direction per minute.
+ - **Your Movement:** You can move to 2 blocks in one direction per minute or 1 block in both directions per minute.
    - For example: Starting at (1, 1), you can move to (2, 2) in one minute, or you can move to either (1, 3), or (3, 1).
 
 
@@ -27,6 +27,10 @@ The second line contains two integers, X_you and Y_you, the starting coordinates
 5,5
 1,1
 ```
+
+# Output 
+
+The output consists of 1 line for each test case that contains the amount of time it takes (in minutes) to catch up to the agent.
 
 # Sample Output
 
