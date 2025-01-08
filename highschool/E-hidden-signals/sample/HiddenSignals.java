@@ -5,38 +5,8 @@ import java.util.Scanner;
 public class HiddenSignals {
 
     public static String processCommands(List<Character> message, List<String> commands) {
-        for (String command : commands) {
-            String[] parts = command.split(" ");
-
-            // Process replace command
-            if (parts[0].equals("replace")) {
-                char oldChar = parts[1].charAt(0);
-                char newChar = parts[3].charAt(0);
-                for (int i = 0; i < message.size(); i++) {
-                    if (message.get(i) == oldChar) {
-                        message.set(i, newChar);
-                    }
-                }
-
-                // Process delete command
-            } else if (parts[0].equals("delete")) {
-                char charToDelete = parts[1].charAt(0);
-                message.removeIf(c -> c == charToDelete);
-
-                // Process insert command
-            } else if (parts[0].equals("insert")) {
-                char charToInsert = parts[1].charAt(0);
-                int position = Integer.parseInt(parts[3]) - 1; // Convert 1-based index to 0-based
-                message.add(position, charToInsert);
-            }
-        }
-
-        // Convert List<Character> back to a String
-        StringBuilder result = new StringBuilder();
-        for (char c : message) {
-            result.append(c);
-        }
-        return result.toString();
+        // Your code here
+        return null; // Replace with the final result
     }
 
     public static void main(String[] args) {
