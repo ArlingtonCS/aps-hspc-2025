@@ -1,40 +1,46 @@
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class PortalChaos {
-    public static int navigate(Portal portals[], ArrayList<Integer> seen_rooms, int current_room) {
-        for (Portal portal : portals) {
-            int first_room = portal.first_room();
-            int second_room = portal.second_room();
+    public static record QueueItem(int portal, int cost) {}
+    ;
 
-            if (first_room != current_room && second_room != current_room) {
-                continue;
-            } else if ((first_room == current_room && second_room == 1000)
-                    || (second_room == current_room && first_room == 1000)) {
-                return 1;
-            } else if (first_room == current_room && !seen_rooms.contains(second_room)) {
-                seen_rooms.add(second_room);
-                int count = navigate(portals, seen_rooms, second_room);
-                if (count != -1) {
-                    return count + 1;
-                }
-            } else if (second_room == current_room && !seen_rooms.contains(first_room)) {
-                seen_rooms.add(first_room);
-                int count = navigate(portals, seen_rooms, first_room);
-                if (count != -1) {
-                    return count + 1;
+    public static int navigate(Portal portals[]) {
+        ArrayDeque<QueueItem> queue = new ArrayDeque<>();
+        queue.add(new QueueItem(0, 0));
+        HashSet<Integer> seen = new HashSet<>();
+
+        HashMap<Integer, ArrayList<Integer>> processed_portals = new HashMap<>();
+
+        for (Portal portal : portals) {
+            if (!processed_portals.containsKey(portal.first_room)) {
+                processed_portals.put(portal.first_room, new ArrayList<>());
+            }
+            if (!processed_portals.containsKey(portal.second_room)) {
+                processed_portals.put(portal.second_room, new ArrayList<>());
+            }
+
+            processed_portals.get(portal.first_room).add(portal.second_room);
+            processed_portals.get(portal.second_room).add(portal.first_room);
+        }
+
+        while (true) {
+            QueueItem item = queue.pop();
+
+            if (item.portal == 1000) {
+                return item.cost;
+            }
+
+            for (int room : processed_portals.get(item.portal)) {
+                if (!seen.contains(room)) {
+                    queue.add(new QueueItem(room, item.cost + 1));
+                    seen.add(room);
                 }
             }
         }
-
-        return -1;
-    }
-
-    public static int navigate(Portal portals[]) {
-        ArrayList<Integer> seen_rooms = new ArrayList<>();
-        seen_rooms.add(0);
-
-        return navigate(portals, seen_rooms, 0);
     }
 
     // parsing code, DO NOT MODIFY
