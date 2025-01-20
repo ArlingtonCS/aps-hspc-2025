@@ -10,7 +10,7 @@ The first line in the test data file contains the number of test cases. Each tes
 
 ## Output
 
-For each test case, output the name of the agent who, on average, completed less than 4 missions per day on a separate line. It is guaranteed that only one agent will complete less than 4 missions per day.
+For each test case, output the name of the agent who, on average, completed less than 4 missions per day on a separate line. It is guaranteed that exactly one agent will complete less than 4 missions per day. Assume that a mole will always be present.
 
 ## Sample Input
 
