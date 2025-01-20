@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Sample {
 
-    public static String processCommands(List<Character> message, List<String> commands) {
+    public static void processCommands(List<Character> message, List<String> commands) {
         // Your code here
-        return null; // Replace with the final result
     }
 
     public static void main(String[] args) {
@@ -14,8 +13,6 @@ public class Sample {
 
         // Read the number of test cases
         int t = Integer.parseInt(scanner.nextLine().trim());
-
-        List<String> results = new ArrayList<>();
 
         // Loop over each test case
         for (int i = 0; i < t; i++) {
@@ -33,15 +30,9 @@ public class Sample {
             }
 
             // Process commands and store the result
-            String decryptedMessage = processCommands(message, commands);
-            results.add(decryptedMessage);
+            processCommands(message, commands);
         }
 
         scanner.close();
-
-        // Output all results
-        for (String result : results) {
-            System.out.println(result);
-        }
     }
 }

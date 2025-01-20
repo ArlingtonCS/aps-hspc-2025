@@ -28,7 +28,7 @@ def decrypt(message):
 
         i += 1
 
-    return result
+    print(result)
 
 def rotate(ch):
     return chr(((ord(ch) + 13) - ord('A')) % 26 + ord('A'))
@@ -55,4 +55,4 @@ def rotate(ch):
 testcases = int(input())
 for _ in range(testcases):
     line = input()
-    print(decrypt(line))
+    decrypt(line)

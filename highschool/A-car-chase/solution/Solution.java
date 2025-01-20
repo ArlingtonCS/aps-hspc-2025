@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Solution {
+    private static void calculateChaseTime(int xAgent, int yAgent, int xYou, int yYou) {
+        System.out.println(xAgent - xYou + yAgent - yYou);
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,13 +23,9 @@ public class Solution {
             int xYou = Integer.parseInt(youCoords[0]);
             int yYou = Integer.parseInt(youCoords[1]);
 
-            System.out.println(calculateChaseTime(xAgent, yAgent, xYou, yYou));
+            calculateChaseTime(xAgent, yAgent, xYou, yYou);
         }
 
         scanner.close();
-    }
-
-    private static int calculateChaseTime(int xAgent, int yAgent, int xYou, int yYou) {
-        return xAgent - xYou + yAgent - yYou;
     }
 }

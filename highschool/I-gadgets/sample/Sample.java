@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 class Sample {
-    public static int num_gadget_combos(int pocket_size, int sizes[]) {
-        return 0;
-    }
+    public static void num_gadget_combos(int pocket_size, int sizes[]) {}
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -18,7 +16,7 @@ class Sample {
                 sizes[i] = Integer.parseInt(scan.nextLine());
             }
 
-            System.out.println(num_gadget_combos(pocket_size, sizes));
+            num_gadget_combos(pocket_size, sizes);
         }
     }
 }

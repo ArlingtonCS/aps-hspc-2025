@@ -23,7 +23,8 @@ def navigate(portals):
         current, cost = queue.pop(0)
 
         if (current == 1000):
-            return cost
+            print(cost)
+            return 
 
         for room in processed_portals[current]:
             if not room in seen:
@@ -38,4 +39,4 @@ for _ in range(length):
 
     portals.append((int(parts[0]), int(parts[1])))
 
-print(navigate(portals))
+navigate(portals)

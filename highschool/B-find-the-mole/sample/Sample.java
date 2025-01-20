@@ -19,7 +19,7 @@ class Datapoint {
 }
 
 public class Sample {
-    public static String findMole(Datapoint[] datapoints) {
+    public static void findMole(Datapoint[] datapoints) {
         // ### WRITE YOUR CODE HERE ###
     }
 
@@ -40,7 +40,7 @@ public class Sample {
                     datapoints[j] = new Datapoint(agentName, missionsCompleted);
                 }
 
-                System.out.println(findMole(datapoints));
+                findMole(datapoints);
             }
         }
     }

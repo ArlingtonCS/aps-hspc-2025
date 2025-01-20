@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Solution {
-    public static String decrypt(String message) {
+    public static void decrypt(String message) {
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < message.length(); i++) {
@@ -24,7 +24,7 @@ public class Solution {
             }
         }
 
-        return result.toString();
+        System.out.println(result.toString());
     }
 
     private static char rotate(char ch) {
@@ -39,7 +39,7 @@ public class Solution {
 
             for (int i = 0; i < testCases; i++) {
                 String line = scanner.nextLine();
-                System.out.println(decrypt(line));
+                decrypt(line);
             }
         }
     }

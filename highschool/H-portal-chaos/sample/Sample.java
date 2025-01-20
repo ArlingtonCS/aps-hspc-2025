@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
 public class Sample {
-    public static int navigate(Portal portals[]) {
+    public static void navigate(Portal portals[]) {
         // ### WRITE YOUR CODE HERE ###
-
-        return 0;
     }
 
     // parsing code, DO NOT MODIFY
@@ -26,7 +24,7 @@ public class Sample {
             portals[i] = new Portal(first_room, second_room);
         }
 
-        System.out.println(navigate(portals));
+        navigate(portals);
 
         scanner.close();
     }

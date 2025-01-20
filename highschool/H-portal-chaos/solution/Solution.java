@@ -8,7 +8,7 @@ public class Solution {
     public static record QueueItem(int portal, int cost) {}
     ;
 
-    public static int navigate(Portal portals[]) {
+    public static void navigate(Portal portals[]) {
         ArrayDeque<QueueItem> queue = new ArrayDeque<>();
         queue.add(new QueueItem(0, 0));
         HashSet<Integer> seen = new HashSet<>();
@@ -31,7 +31,8 @@ public class Solution {
             QueueItem item = queue.pop();
 
             if (item.portal == 1000) {
-                return item.cost;
+                System.out.println(item.cost);
+                return;
             }
 
             for (int room : processed_portals.get(item.portal)) {
@@ -62,7 +63,7 @@ public class Solution {
             portals[i] = new Portal(first_room, second_room);
         }
 
-        System.out.println(navigate(portals));
+        navigate(portals);
 
         scanner.close();
     }

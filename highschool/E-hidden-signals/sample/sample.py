@@ -18,16 +18,11 @@ input = sys.stdin.read().splitlines()
 t = int(input[0])
 index = 1
 
-results = []
 for _ in range(t):
     n = int(input[index])
     encoded_message = input[index + 1]
     commands = input[index + 2: index + 2 + n]
     index += 2 + n
     
-    decrypted_message = process_commands(list(encoded_message), commands)
-    results.append(decrypted_message)
+    process_commands(list(encoded_message), commands)
 
-
-for result in results:
-    print(result)

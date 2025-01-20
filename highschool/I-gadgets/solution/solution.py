@@ -7,7 +7,7 @@ def num_gadget_combos(pocket_size, sizes):
         for count_idx in range(size, pocket_size + 1):
             counts[count_idx] += counts[count_idx - size]
 
-    return counts[-1]
+    print(counts[-1])
     
 num_cases = int(input())
 for _ in range(num_cases):
@@ -17,4 +17,4 @@ for _ in range(num_cases):
     for _ in range(length):
         sizes.append(int(input()))
 
-    print(num_gadget_combos(pocket_size, sizes))
+    num_gadget_combos(pocket_size, sizes)

@@ -20,7 +20,7 @@ class Datapoint {
 }
 
 public class Solution {
-    public static String findMole(Datapoint[] datapoints) {
+    public static void findMole(Datapoint[] datapoints) {
         HashMap<String, Integer> agentsCounts = new HashMap<>();
         HashMap<String, Integer> agentsTotals = new HashMap<>();
         for (Datapoint datapoint : datapoints) {
@@ -34,10 +34,10 @@ public class Solution {
         for (String agent : agentsCounts.keySet()) {
             double average = (double) agentsTotals.get(agent) / agentsCounts.get(agent);
             if (average < 4) {
-                return agent;
+                System.out.println(agent);
+                return;
             }
         }
-        return "Error";
     }
 
     // parsing code, DO NOT MODIFY
@@ -57,7 +57,7 @@ public class Solution {
                     datapoints[j] = new Datapoint(agentName, missionsCompleted);
                 }
 
-                System.out.println(findMole(datapoints));
+                findMole(datapoints);
             }
         }
     }

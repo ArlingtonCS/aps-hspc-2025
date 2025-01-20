@@ -26,4 +26,4 @@ line_count = int(input())
 lines = []
 for _ in range(line_count):
     lines.append(input())
-print(find_secrets_txt(lines))
+find_secrets_txt(lines)

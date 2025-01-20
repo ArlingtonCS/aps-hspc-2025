@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class Solution {
     // Returns the path to secrets.txt
-    public static String findSecretsTxt(String[] lines) {
+    public static void findSecretsTxt(String[] lines) {
         Stack<String> stack = new Stack<>();
         for (String line : lines) {
             String name = line.charAt(0) != '-' ? line : line.substring(line.indexOf(" ") + 1);
@@ -22,11 +22,11 @@ public class Solution {
                         path.append(dir);
                     }
                     path.append("secrets.txt");
-                    return path.toString();
+                    System.out.println(path.toString());
+                    return;
                 }
             }
         }
-        return null;
     }
 
     // parsing code, DO NOT MODIFY
@@ -39,7 +39,7 @@ public class Solution {
             for (int i = 0; i < lineCount; i++) {
                 lines[i] = scanner.nextLine();
             }
-            System.out.println(findSecretsTxt(lines));
+            findSecretsTxt(lines);
         }
     }
 }

@@ -21,14 +21,13 @@ def process_commands(message, commands):
             position = int(parts[3]) - 1  # Convert 1-based index to 0-based
             message.insert(position, char_to_insert)
 
-    return ''.join(message)  # Convert list back to string
+    print(''.join(message))  # Convert list back to string
 
 # Reading input
 input = sys.stdin.read().splitlines()
 t = int(input[0])  # Number of test cases
 index = 1
 
-results = []
 for _ in range(t):
     n = int(input[index])  # Number of commands
     encoded_message = input[index + 1]  # Original encoded message
@@ -36,9 +35,4 @@ for _ in range(t):
     index += 2 + n
     
     # Process commands for each test case and store the result
-    decrypted_message = process_commands(list(encoded_message), commands)
-    results.append(decrypted_message)
-
-# Output all results
-for result in results:
-    print(result)
+    process_commands(list(encoded_message), commands)

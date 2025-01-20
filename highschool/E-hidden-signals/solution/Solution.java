@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Solution {
 
-    public static String processCommands(List<Character> message, List<String> commands) {
+    public static void processCommands(List<Character> message, List<String> commands) {
         for (String command : commands) {
             String[] parts = command.split(" ");
 
@@ -36,7 +36,7 @@ public class Solution {
         for (char c : message) {
             result.append(c);
         }
-        return result.toString();
+        System.out.println(result.toString());
     }
 
     public static void main(String[] args) {
@@ -44,8 +44,6 @@ public class Solution {
 
         // Read the number of test cases
         int t = Integer.parseInt(scanner.nextLine().trim());
-
-        List<String> results = new ArrayList<>();
 
         // Loop over each test case
         for (int i = 0; i < t; i++) {
@@ -62,16 +60,9 @@ public class Solution {
                 commands.add(scanner.nextLine().trim());
             }
 
-            // Process commands and store the result
-            String decryptedMessage = processCommands(message, commands);
-            results.add(decryptedMessage);
+            processCommands(message, commands);
         }
 
         scanner.close();
-
-        // Output all results
-        for (String result : results) {
-            System.out.println(result);
-        }
     }
 }

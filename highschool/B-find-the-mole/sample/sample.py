@@ -30,4 +30,4 @@ for _ in range(testcases):
     datapoints = []
     for _ in range(num_datapoints):
         datapoints.append(input())
-    print(find_mole(datapoints))
+    find_mole(datapoints)

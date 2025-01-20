@@ -12,4 +12,4 @@ for _ in range(num_cases):
     for _ in range(length):
         sizes.append(int(input()))
 
-    print(num_gadget_combos(pocket_size, sizes))
+    num_gadget_combos(pocket_size, sizes)

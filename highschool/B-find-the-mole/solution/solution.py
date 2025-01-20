@@ -15,7 +15,7 @@ def find_mole(datapoints):
     for agent, missions in agent_missions.items():
         average_missions = sum(missions) / len(missions)
         if average_missions < 4:
-            return agent
+            print(agent)
 
 # parsing code, DO NOT MODIFY
 testcases = int(input())
@@ -24,4 +24,4 @@ for _ in range(testcases):
     datapoints = []
     for _ in range(num_datapoints):
         datapoints.append(input())
-    print(find_mole(datapoints))
+    find_mole(datapoints)

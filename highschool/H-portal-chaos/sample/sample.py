@@ -13,4 +13,4 @@ for _ in range(length):
 
     portals.append((parts[0], parts[1]))
 
-print(navigate(portals))
+navigate(portals)

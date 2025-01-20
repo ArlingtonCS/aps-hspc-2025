@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Sample {
     // Returns the path to secrets.txt
-    public static String findSecretsTxt(String[] lines) {
+    public static void findSecretsTxt(String[] lines) {
         // ### WRITE YOUR CODE HERE ###
     }
 
@@ -16,7 +16,7 @@ public class Sample {
             for (int i = 0; i < lineCount; i++) {
                 lines[i] = scanner.nextLine();
             }
-            System.out.println(findSecretsTxt(lines));
+            findSecretsTxt(lines);
         }
     }
 }

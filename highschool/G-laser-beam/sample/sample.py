@@ -12,8 +12,5 @@ for _ in range(count):
     line = input()
     parts = line.strip().split(' ')
 
-    if (does_intersect(float(parts[0]), float(parts[1]), float(parts[2]), float(parts[3]), float(parts[4]))):
-        print("true")
-    else:
-        print("false")
+    does_intersect(float(parts[0]), float(parts[1]), float(parts[2]), float(parts[3]), float(parts[4])):
 

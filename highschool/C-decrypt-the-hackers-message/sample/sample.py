@@ -26,4 +26,4 @@ def decrypt(message):
 testcases = int(input())
 for _ in range(testcases):
     line = input()
-    print(decrypt(line))
+    decrypt(line)
