@@ -18,7 +18,7 @@ class Datapoint {
     }
 }
 
-public class FindTheMole {
+public class Sample {
     public static String findMole(Datapoint[] datapoints) {
         // ### WRITE YOUR CODE HERE ###
     }

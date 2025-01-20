@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class FindSecretsTxt {
+public class Solution {
     // Returns the path to secrets.txt
     public static String findSecretsTxt(String[] lines) {
         Stack<String> stack = new Stack<>();

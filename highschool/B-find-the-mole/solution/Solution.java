@@ -19,14 +19,17 @@ class Datapoint {
     }
 }
 
-public class FindTheMole {
+public class Solution {
     public static String findMole(Datapoint[] datapoints) {
         HashMap<String, Integer> agentsCounts = new HashMap<>();
         HashMap<String, Integer> agentsTotals = new HashMap<>();
         for (Datapoint datapoint : datapoints) {
-            agentsCounts.put(datapoint.getName(), agentsCounts.getOrDefault(datapoint.getName(), 0) + 1);
-            agentsTotals.put(datapoint.getName(),
-                    agentsTotals.getOrDefault(datapoint.getName(), 0) + datapoint.getMissionsCompleted());
+            agentsCounts.put(
+                    datapoint.getName(), agentsCounts.getOrDefault(datapoint.getName(), 0) + 1);
+            agentsTotals.put(
+                    datapoint.getName(),
+                    agentsTotals.getOrDefault(datapoint.getName(), 0)
+                            + datapoint.getMissionsCompleted());
         }
         for (String agent : agentsCounts.keySet()) {
             double average = (double) agentsTotals.get(agent) / agentsCounts.get(agent);

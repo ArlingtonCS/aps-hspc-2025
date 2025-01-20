@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class PortalChaos {
+public class Solution {
     public static record QueueItem(int portal, int cost) {}
     ;
 

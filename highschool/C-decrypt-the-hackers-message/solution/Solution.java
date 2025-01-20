@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DecryptTheMessage {
+public class Solution {
     public static String decrypt(String message) {
         StringBuilder result = new StringBuilder();
 

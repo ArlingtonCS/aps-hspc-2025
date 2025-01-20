@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Gadgets {
+class Sample {
     public static int num_gadget_combos(int pocket_size, int sizes[]) {
         return 0;
     }

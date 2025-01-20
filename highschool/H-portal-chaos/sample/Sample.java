@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PortalChaos {
+public class Sample {
     public static int navigate(Portal portals[]) {
         // ### WRITE YOUR CODE HERE ###
 

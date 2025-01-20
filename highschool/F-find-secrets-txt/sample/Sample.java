@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FindSecretsTxt {
+public class Sample {
     // Returns the path to secrets.txt
     public static String findSecretsTxt(String[] lines) {
         // ### WRITE YOUR CODE HERE ###

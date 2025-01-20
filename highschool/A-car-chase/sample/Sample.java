@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CarChase {
+public class Sample {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +26,9 @@ public class CarChase {
         scanner.close();
     }
 
+    // DO NOT MODIFY ABOVE HERE
+
     private static int calculateChaseTime(int xAgent, int yAgent, int xYou, int yYou) {
-        return xAgent - xYou + yAgent - yYou;
+        // WRITE CODE HERE
     }
 }

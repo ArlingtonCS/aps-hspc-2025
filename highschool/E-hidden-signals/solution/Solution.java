@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class HiddenSignals {
+public class Solution {
 
     public static String processCommands(List<Character> message, List<String> commands) {
         for (String command : commands) {

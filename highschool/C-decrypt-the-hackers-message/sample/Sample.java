@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DecryptTheMessage {
+public class Sample {
     // Returns the decrypted message
     public static String decrypt(String message) {
         // ### WRITE YOUR CODE HERE ###
