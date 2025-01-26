@@ -2,8 +2,8 @@
 
 We're going to make things a little harder for the second sample problem. This
 problem has an input, but luckily, our sample code does all the parsing for
-you! You just have to print or return the correct response, depending on the
-problem.
+you! Your code just has to return the correct response. However, for some
+problems you may have to print the response yourself.
 
 ## Input
 
@@ -27,3 +27,5 @@ Print out the larger of the two numbers on its own line.
 ```
 2
 ```
+
+\newpage
