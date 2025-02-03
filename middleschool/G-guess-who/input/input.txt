@@ -1,0 +1,31 @@
+5
+4
+Alice blonde tall glasses
+Bob brown short hat
+Charlie blonde short glasses
+David black short hat
+blonde glasses
+3
+Emma blue tall glasses
+Fiona blue short glasses
+George green tall hat
+blue glasses
+6
+Harry blonde short glasses
+Ivy red tall hat
+Jack blonde tall glasses
+Kara blonde short glasses
+Liam brown short hat
+Mia black tall glasses
+blonde short
+2
+Nancy blonde tall glasses
+Oscar black short hat
+tall glasses
+5
+Paul green tall glasses
+Quincy red short glasses
+Rita blue tall glasses
+Sam green tall glasses
+Tina red short glasses
+green glasses

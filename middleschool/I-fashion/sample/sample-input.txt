@@ -1,0 +1,6 @@
+2
+red blue
+3
+green black yellow
+2
+orange white

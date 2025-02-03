@@ -1,0 +1,5 @@
+Sunlight Zone: 2
+Twilight Zone: 2
+Midnight Zone: 3
+Abyssal Zone: 1
+Trenches: 2
