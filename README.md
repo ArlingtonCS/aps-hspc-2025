@@ -1,4 +1,4 @@
-# Arlington HSPC
+# APS HSPC 2025: Problems & Solutions
 
 This repository contains the problems, their samples, solutions, testcases, and
 testcase generators. The `highschool`, `middleschool`, `practice`, and `sample`
